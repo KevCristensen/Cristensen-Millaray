@@ -3,33 +3,63 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* body{
-    background-color: black;
-} */
+body{
+    background-color: rgb(0, 0, 0);
+} 
+section{
+    display: flex;
+    flex-direction: row;
+}
 .barra-navegacion{
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
     width: 20%;
     height: 100vh;
+    float: left;
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 35px;
     background-color: rgb(46, 42, 42);
 }
 .barra-navegacion ul li{
     list-style: none;
 }
 .barra-navegacion ul li a{
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 15px;
+    line-height: 10px;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .barra-navegacion ul li a:hover{
     color: rgb(109, 100, 100);
 }
-.conteiner{
-    border: 1px solid cyan;
+.container{
+    padding-top: 35px;
+    color: ivory;
+    height: 25vh;
+    display: block;
+}
+.container h2{
+    font-size: 28px;
+    margin-left: 13%;
+    margin-right: 13%;
+}
+.container p{
+    font-size: 13px;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 .general{
+    flex-flow: column;
     width: 80%;
-    height: 25%;
+}
+.container-amarillo{
+    background-color: rgba(255, 255, 0, 0.829);
+}
+.container-celeste{
+    background-color: cyan;
+}
+.container-rojo{
+    background-color: red;
+}
+.container-naranjo{
+    background-color: orange;
 }
