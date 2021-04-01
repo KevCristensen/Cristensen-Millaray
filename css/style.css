@@ -63,3 +63,18 @@ section{
 .container-naranjo{
     background-color: orange;
 }
+h3{
+    padding-top: 50px;
+}
+h4{
+    font-size: 80px;
+    text-align: center;
+}
+h3 p{
+    font-size: 12px;
+    margin-left: 28%;
+    margin-right: 28%;
+    padding-top: 20px
+}
+
+
