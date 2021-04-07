@@ -1,0 +1,9 @@
+#carousel .carousel-inner img{
+    max-height: 60vh;
+    object-fit: cover;
+}
+.item {
+    display: none;
+    position: relative;
+    .transition(.6s ease-in-out left);
+}
