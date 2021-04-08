@@ -2,11 +2,6 @@
     max-height: 70vh;
     object-fit: cover;
 }
-.item {
-    display: none;
-    position: relative;
-    .transition(.6s ease-in-out left);
-}
 #carousel .overlay{
     position: absolute;
     width: 100%;
@@ -15,3 +10,13 @@
     background-color: #080d15;
     opacity: .7;
 }
+/* .container {
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+}
+.item-a {
+    grid-column-start: 3;
+    grid-column-end: end;
+    grid-row-start: third-line;
+    grid-row-end: last-line;
+} */
