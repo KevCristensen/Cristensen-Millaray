@@ -23,6 +23,9 @@
     grid-row-start: third-line;
     grid-row-end: last-line;
 } */
+h1{
+    font-size: 1px;
+}
 h4{
     font-size: 40px;
     text-align: center;
@@ -34,5 +37,34 @@ h4 p{
     margin-left: 28%;
     margin-right: 28%;
     padding-top: 20px
-    
+}
+/* .foto{
+    object-fit: cover;
+} */
+
+.avatar-big {
+    height:100px;
+    width:100px;
+}
+  
+.avatar-small {
+height:50px;
+width:50px;
+}
+
+.avatar-med {
+height:75px;
+width:75px;
+}
+
+
+.avatar-img {
+width: 100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+}
+
+.rounded-circle {
+border-radius: 50%;
 }
