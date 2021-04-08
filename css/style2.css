@@ -23,3 +23,16 @@
     grid-row-start: third-line;
     grid-row-end: last-line;
 } */
+h4{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 2%;
+}
+h4 p{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 28%;
+    margin-right: 28%;
+    padding-top: 20px
+    
+}
