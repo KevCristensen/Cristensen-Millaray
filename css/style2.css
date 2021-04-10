@@ -2,7 +2,7 @@
     font-family: "open sans";
 }
 .container{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #carousel .carousel-inner img{
     max-height: 70vh;
@@ -28,7 +28,7 @@
     grid-row-end: last-line;
 } */
 h1{
-    font-size: 1px;
+    font-size: 30px;
 }
 h4{
     font-size: 40px;
